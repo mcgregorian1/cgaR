@@ -1,5 +1,5 @@
 Package: cgaR
-Title: What the Package Does (One Line, Title Case)
+Title: A way to share common functions from CGA
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "First",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "first.last@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: A way to share common functions from CGA and allow people to add their own functions easily.
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
