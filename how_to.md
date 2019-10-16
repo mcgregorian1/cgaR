@@ -69,7 +69,7 @@ dawww <- function(choice=c("spring", "summer", "fall", "winter", "smolbabe", "do
   plot(smolbabe, yaxt = 'n', axes = FALSE)
 }
 ```
-Then add the documentation lines like this. You don't need to save.
+Then add the documentation lines to the top like this. You don't need to save.
 ```r
 #' dawww
 #'
@@ -101,3 +101,10 @@ document()
 ```
 
 That's it! To install the new version of the package, use `install_github("mcgregorian1/cgaR")`.
+
+If you're curious about what each of the "@" symbols refer to in the documentation, feel free to view the help for `dawww` to see what each one corresponds to. If you really want to get in it, you can read what [Hadley](http://r-pkgs.had.co.nz/man.html) has to say.
+```
+devtools::install_github("mcgregorian1/cgaR")
+library(cgaR)
+?dawww
+```
