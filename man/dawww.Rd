@@ -4,9 +4,8 @@
 \alias{dawww}
 \title{dawww}
 \usage{
-dawww(
-  choice = c("spring", "summer", "fall", "winter", "smolbabe", "doggo", "surprise")
-)
+dawww(choice = c("spring", "summer", "fall", "winter", "smolbabe",
+  "doggo", "surprise"))
 }
 \arguments{
 \item{choice}{From the list above, you may only choose one.}
