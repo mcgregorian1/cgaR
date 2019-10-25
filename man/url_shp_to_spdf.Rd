@@ -17,5 +17,7 @@ The function allows you to download shapefile zip files into a temporary folder 
 }
 \details{
 Source of function: Kay Cichini (https://www.r-bloggers.com/batch-downloading-zipped-shapefiles-with-r/)
+
+Author: Ian (imcgreg [at] ncsu [dot] edu)
 }
 \keyword{shapefile}

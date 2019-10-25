@@ -3,6 +3,8 @@
 #' The function allows you to download shapefile zip files into a temporary folder and directory, which are then unzipped and ready to use in R. Temp folders are automatically unlinked (deleted) and the working directory is set back to original within every iteration of the function. This means no shapefiles are stored to the drive.
 #'
 #' Source of function: Kay Cichini (https://www.r-bloggers.com/batch-downloading-zipped-shapefiles-with-r/)
+#'
+#' Author: Ian (imcgreg [at] ncsu [dot] edu)
 
 #' @param URL A single URL or a vector of URLs
 #' @keywords shapefile
