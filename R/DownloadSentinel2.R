@@ -1,7 +1,7 @@
 #' Download Sentinel 2 L1C dataset from google cloud.
 #'
 #' This function requires Google Cloud Storage SDK, you can download and install this SDK
-#' from google cloud website.
+#' from google cloud website: https://cloud.google.com/sdk/install
 #'
 #' Once it started, press ctrl+c in the command line can stop it.
 #'
@@ -41,3 +41,5 @@ DownloadSentinel2 <- function(tilename, folder, L2Flag = FALSE, regExp = NULL) {
         }
     }
 }
+
+DownloadSentinel2("15SYA", "/homework/project/rasters/", L2Flag=TRUE, regExp = "S2\\D_MSIL\\d\\D_201[7][0][5].*.SAFE/$" )
