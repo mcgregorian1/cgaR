@@ -2,7 +2,7 @@
 % Please edit documentation in R/DownloadSentinel2.R
 \name{DownloadSentinel2}
 \alias{DownloadSentinel2}
-\title{Download Sentinel 2 L1C dataset from google cloud.}
+\title{Download Sentinel 2 dataset from google cloud.}
 \usage{
 DownloadSentinel2(tilename, folder, L2Flag = FALSE, regExp = NULL)
 }

@@ -1,4 +1,4 @@
-#' Download Sentinel 2 L1C dataset from google cloud.
+#' Download Sentinel 2 dataset from google cloud.
 #'
 #' This function requires Google Cloud Storage SDK, you can download and install this SDK
 #' from google cloud website.
