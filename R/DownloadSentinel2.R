@@ -18,11 +18,11 @@
 #' @param folder local folder used to store downloaded files
 #' @param L2Flag indicate to download L2A product or L1C product (default)
 #' @param regExp regular expression, (default is NULL) with which you can specify which files you want. Be really careful to use this. For example,
-#' regExp <- "S2\\D_MSIL\\d\\D_201([6]|[8][0][0-9]).*.SAFE/$" means you want data from 2016 and before 2018 before October.
+#' regExp <- "S2\\D_MSIL\\d\\D_201([6]|[8][0][0-9]).*.SAFE/$" means you want the whole year data of 2016 and data from Jan to Sep of 2018.
 #' @keywords sentinel
 #' @export
 #' @examples
-#' DownloadSentinel2("17SNA", "D:/", L2Flag = TRUE, rexExp = "S2\\D_MSIL\\d\\D_201([6]|[8][0][0-9]).*.SAFE/$")
+#' DownloadSentinel2("17SNA", "D:/", L2Flag = TRUE, regExp = "S2\\D_MSIL\\d\\D_201([6]|[8][0][0-9]).*.SAFE/$")
 DownloadSentinel2 <- function(tilename, folder, L2Flag = FALSE, regExp = NULL) {
     gcUrl <- ifelse(L2Flag == TRUE, file.path("gs://gcp-public-data-sentinel-2/L2/tiles", substr(tilename, 1, 2),
                                         substr(tilename, 3, 3), substr(tilename, 4, 5)),
